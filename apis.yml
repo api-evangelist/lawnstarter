@@ -1,7 +1,26 @@
 aid: lawnstarter
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lawnstarter.png
 name: LawnStarter
-description: LawnStarter is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LawnStarter is an on-demand lawn care and outdoor-services marketplace founded in 2013 and headquartered
+  in Austin, Texas, that connects homeowners with vetted local lawn care professionals ("LawnTrepreneurs").
+  Beyond recurring lawn mowing, the platform books more than 30 services including landscaping, lawn
+  treatments and fertilization, tree care, gutter cleaning, pressure washing, and leaf removal, with
+  transparent online quoting, consistent crews, and a re-mow-or-refund quality guarantee. LawnStarter
+  operates across 500+ cities, has served more than 500,000 customers through roughly 7,500 professionals,
+  and reached profitability in 2021. LawnStarter runs a consumer web/mobile marketplace and a separate
+  provider app (pros.lawnstarter.com); it does not publish a public developer platform, API, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/lawnstarter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Lawn Care
+- Landscaping
+- Home Services
+- Marketplace
+- On-Demand
+- Local Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://lawnstarter.com/
+- type: Blog
+  url: https://lawnstarter.com/blog
+- type: Support
+  url: https://lawnstarter.com/contact
+- type: HelpCenter
+  url: https://lawnstarter.com/faq
+- type: TermsOfService
+  url: https://lawnstarter.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://lawnstarter.com/privacy
+- type: DomainSecurity
+  url: security/lawnstarter-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
